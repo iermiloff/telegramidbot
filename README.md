@@ -44,7 +44,7 @@ docker compose up -d --build
 
 * **Просмотр логов бота:**
   ```bash
-  docker compose logs -f tg_media_id_bot
+  docker compose logs -f telegramidbot
   ```
 * **Остановка бота:**
   ```bash
@@ -52,7 +52,7 @@ docker compose up -d --build
   ```
 * **Перезапуск контейнера:**
   ```bash
-  docker compose restart tg_media_id_bot
+  docker compose restart telegramidbot
   ```
 
 ---
