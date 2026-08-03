@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  tg_media_id_bot:
+    build: .
+    container_name: tg_media_id_bot
+    restart: always
+    env_file:
+      - .env
